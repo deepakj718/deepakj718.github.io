@@ -41,3 +41,11 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+ 
+const terminal = document.querySelector("#terminal")
+const terminal_btn = document.querySelector("#terminal-btn")
+
+terminal_btn.addEventListener("click", ()=>{
+  terminal.className = "open";
+})
+
